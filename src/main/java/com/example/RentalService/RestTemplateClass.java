@@ -9,6 +9,6 @@ public class RestTemplateClass {
 
     @Bean
     public RestTemplate restTemplate(){
-        return restTemplate();
+        return new RestTemplate();
     }
 }
